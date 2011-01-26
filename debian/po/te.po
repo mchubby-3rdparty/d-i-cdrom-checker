@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: te\n"
 "Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
 "POT-Creation-Date: 2008-01-26 07:32+0000\n"
-"PO-Revision-Date: 2010-12-20 09:52+0530\n"
+"PO-Revision-Date: 2011-01-19 21:00+0530\n"
 "Last-Translator: Arjuna Rao Chavala <arjunaraoc@gmail.com>\n"
 "Language-Team: Telugu <debian-in-workers@lists.alioth.debian.org>\n"
 "MIME-Version: 1.0\n"
@@ -51,7 +51,7 @@ msgstr "డెబియన్  CD-ROM ప్రవేశ పెట్టు"
 msgid ""
 "Please insert one of the official Debian CD-ROMs into the drive before "
 "continuing."
-msgstr " కొనసాగించుటకు ముందు అధికారిక డెబియన్  CD-ROM లలో ఒకదానిని దయచేసి   డ్రైవ్ లో ప్రవేశపెట్టండి."
+msgstr "కొనసాగించుటకు ముందు అధికారిక డెబియన్  CD-ROM లలో ఒకదానిని దయచేసి   డ్రైవ్ లో ప్రవేశపెట్టండి."
 
 #. Type: error
 #. Description
@@ -156,7 +156,7 @@ msgstr "డెబియన్ బూట్ CD-ROM ప్రవేశపెట్
 msgid ""
 "Please make sure you have inserted the Debian boot CD-ROM  to continue with "
 "the installation."
-msgstr " స్థాపన కొనసాగించుటకు డెబియన్ బూట్ CD-ROM  ప్రవేశపెట్టినట్లు నిర్ధారించుకో."
+msgstr "స్థాపన కొనసాగించుటకు డెబియన్ బూట్ CD-ROM  ప్రవేశపెట్టినట్లు నిర్ధారించుకో."
 
 #. Type: text
 #. Description
