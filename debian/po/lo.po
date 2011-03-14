@@ -59,7 +59,7 @@ msgstr ""
 #: ../cdrom-checker.templates:3001
 #, fuzzy
 msgid "Failed to mount CD-ROM"
-msgstr "ຈະພະຍາຍາມເມົາຊີດີອອກອີກຄັ້ງຫຼືບໍ່?"
+msgstr "ບໍ່ສຳເລັດໃນການເຊີ່ມຟຣອບປີິ້ດີສ໌"
 
 #. Type: error
 #. Description
