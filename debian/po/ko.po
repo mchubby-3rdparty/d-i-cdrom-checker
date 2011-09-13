@@ -9,12 +9,26 @@
 #
 # Changwoo Ryu <cwryu@debian.org>, 2010, 2011.
 #
+# Translations from iso-codes:
+# Copyright (C)
+#   Alastair McKinstry <mckinstry@computer.org>, 2001.
+#   Changwoo Ryu <cwryu@debian.org>, 2004, 2008, 2009, 2010, 2011.
+#   Copyright (C) 2000 Free Software Foundation, Inc.
+#   Eungkyu Song <eungkyu@sparcs.org>, 2001.
+#   Free Software Foundation, Inc., 2001,2003
+#   Jaegeum Choe <baedaron@hananet.net>, 2001.
+#   (translations from drakfw)
+#   Kang, JeongHee <Keizi@mail.co.kr>, 2000.
+#   Sunjae Park <darehanl@gmail.com>, 2006-2007.
+#   Tobias Quathamer <toddy@debian.org>, 2007.
+#     Translations taken from ICU SVN on 2007-09-09
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
 "POT-Creation-Date: 2008-01-26 07:32+0000\n"
-"PO-Revision-Date: 2011-03-09 02:14+0900\n"
+"PO-Revision-Date: 2011-09-13 08:15+0900\n"
 "Last-Translator: Changwoo Ryu <cwryu@debian.org>\n"
 "Language-Team:  Korean <debian-l10n-korean@lists.debian.org>\n"
 "Language: ko\n"
@@ -57,7 +71,7 @@ msgstr "계속하기 전에 공식 데비안 CD-ROM을 드라이브에 넣으십
 #. :sl3:
 #: ../cdrom-checker.templates:3001
 msgid "Failed to mount CD-ROM"
-msgstr "CD-ROM을 마운트하는 데 실패했습니다"
+msgstr "CD-ROM을 마운트하는데 실패했습니다"
 
 #. Type: error
 #. Description
@@ -92,7 +106,7 @@ msgstr "넣은 CD-ROM은 올바른 데비안 CD-ROM이 아닙니다. 디스크�
 #. :sl3:
 #: ../cdrom-checker.templates:5001
 msgid "Failed to open checksum file"
-msgstr "체크섬 파일을 여는 데 실패했습니다"
+msgstr "체크섬 파일을 여는데 실패했습니다"
 
 #. Type: error
 #. Description
@@ -103,7 +117,7 @@ msgid ""
 "Opening the MD5 file on the CD-ROM failed. This file contains the checksums "
 "of the files located on the CD-ROM."
 msgstr ""
-"CD-ROM의 MD5 파일을 여는 데 실패했습니다. 체크섬 파일에는 CD-ROM에 들어 있는 "
+"CD-ROM의 MD5 파일을 여는데 실패했습니다. 체크섬 파일에는 CD-ROM에 들어 있는 "
 "파일의 체크섬이 들어 있습니다."
 
 #. Type: note
@@ -118,7 +132,7 @@ msgstr "내용 확인이 성공했습니다"
 #. :sl3:
 #: ../cdrom-checker.templates:6001
 msgid "The CD-ROM integrity test was successful. The CD-ROM is valid."
-msgstr "CD-ROM이 올바른지 확인하는 데 성공했습니다. CD-ROM이 문제가 없습니다."
+msgstr "CD-ROM이 올바른지 확인하는데 성공했습니다. CD-ROM이 문제가 없습니다."
 
 #. Type: error
 #. Description
