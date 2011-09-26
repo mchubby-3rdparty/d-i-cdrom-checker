@@ -31,7 +31,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
 "POT-Creation-Date: 2008-01-26 07:32+0000\n"
-"PO-Revision-Date: 2011-09-18 21:28+0100\n"
+"PO-Revision-Date: 2011-09-26 10:46+0100\n"
 "Last-Translator: Marcin Owsiany <porridge@debian.org>\n"
 "Language-Team: Polish <debian-l10n-polish@lists.debian.org>\n"
 "Language: pl\n"
@@ -44,21 +44,21 @@ msgstr ""
 #. :sl3:
 #: ../cdrom-checker.templates:1001
 msgid "Check CD-ROM integrity?"
-msgstr ""
+msgstr "Sprawdzić integralności płyty CD?"
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:1001
 msgid "Warning: this check depends on your hardware and may take some time."
-msgstr ""
+msgstr "Uwaga: ten test zależy od Twojego sprzętu i może chwilę potrwać."
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:2001
 msgid "Insert a Debian CD-ROM"
-msgstr ""
+msgstr "Włóż płytę CD Debiana"
 
 #. Type: note
 #. Description
@@ -67,14 +67,14 @@ msgstr ""
 msgid ""
 "Please insert one of the official Debian CD-ROMs into the drive before "
 "continuing."
-msgstr ""
+msgstr "Przed kontynuacją włóż jedną z oficjalnych płyt Debiana do napędu."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:3001
 msgid "Failed to mount CD-ROM"
-msgstr ""
+msgstr "Nie udało się zamontować płyty CD"
 
 #. Type: error
 #. Description
@@ -84,13 +84,15 @@ msgid ""
 "The CD-ROM ${CDROM} could not be mounted correctly. Please check the media "
 "and cables, and try it again."
 msgstr ""
+"CD-ROM ${CDROM} nie mógł być poprawnie zamontowany. Sprawdź nośnik i kable, "
+"a następnie spróbuj ponownie."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:4001
 msgid "No valid Debian CD-ROM"
-msgstr ""
+msgstr "Brak prawidłowej płyty CD Debiana"
 
 #. Type: error
 #. Description
@@ -99,7 +101,7 @@ msgstr ""
 msgid ""
 "The CD-ROM you have inserted is not a valid Debian CD-ROM. Please change the "
 "disk."
-msgstr ""
+msgstr "Włożona płyta CD nie jest poprawną płytą CD Debiana. Zmień dysk."
 
 #. Type: error
 #. Description
@@ -107,7 +109,7 @@ msgstr ""
 #. :sl3:
 #: ../cdrom-checker.templates:5001
 msgid "Failed to open checksum file"
-msgstr ""
+msgstr "Nie dało się otworzyć pliku sum kontrolnych"
 
 #. Type: error
 #. Description
@@ -118,13 +120,15 @@ msgid ""
 "Opening the MD5 file on the CD-ROM failed. This file contains the checksums "
 "of the files located on the CD-ROM."
 msgstr ""
+"Nie można było otworzyć pliku MD5 znajdującego się na płycie. Plik ten "
+"zawiera sumy kontrolne plików umieszczonych na płycie."
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:6001
 msgid "Integrity test successful"
-msgstr ""
+msgstr "Test integralności zakończony pomyślnie"
 
 #. Type: note
 #. Description
@@ -132,13 +136,14 @@ msgstr ""
 #: ../cdrom-checker.templates:6001
 msgid "The CD-ROM integrity test was successful. The CD-ROM is valid."
 msgstr ""
+"Test integralności płyty CD został pomyślnie zakończony. Płyta jest sprawna."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:7001
 msgid "Integrity test failed"
-msgstr ""
+msgstr "Test integralności nie powiódł się"
 
 #. Type: error
 #. Description
@@ -148,20 +153,22 @@ msgid ""
 "The ${FILE} file failed the MD5 checksum verification. Your CD-ROM or this "
 "file may have been corrupted."
 msgstr ""
+"Suma kontrolna MD5 następującego pliku jest niepoprawna: ${FILE}. Twoja "
+"płyta lub plik mogą być uszkodzone."
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:8001
 msgid "Check the integrity of another CD-ROM?"
-msgstr ""
+msgstr "Czy chcesz sprawdzić integralność kolejnej płyty CD?"
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:9001
 msgid "Insert Debian boot CD-ROM"
-msgstr ""
+msgstr "Włóż płytę startową Debiana"
 
 #. Type: note
 #. Description
@@ -171,20 +178,22 @@ msgid ""
 "Please make sure you have inserted the Debian boot CD-ROM  to continue with "
 "the installation."
 msgstr ""
+"Zanim przejdziesz dalej, upewnij się, że została włożona startowa płyta CD "
+"Debiana."
 
 #. Type: text
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:10001
 msgid "Checking CD-ROM integrity"
-msgstr ""
+msgstr "Sprawdzanie integralności płyty CD"
 
 #. Type: text
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:11001
 msgid "Checking file: ${FILE}"
-msgstr ""
+msgstr "Sprawdzanie pliku: ${FILE}"
 
 #. Type: text
 #. Description
@@ -193,4 +202,4 @@ msgstr ""
 #. :sl2:
 #: ../cdrom-checker.templates:12001
 msgid "Check the CD-ROM(s) integrity"
-msgstr ""
+msgstr "Sprawdź integralność płyt(y) CD"
