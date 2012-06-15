@@ -1,3 +1,36 @@
+cdrom-checker (1.22) unstable; urgency=low
+
+  * Team upload
+  * Replace XC-package-Type by package-Type
+
+  [ Updated translations ]
+  * Asturian (ast.po) by Mikel González
+  * Bulgarian (bg.po) by Damyan Ivanov
+  * Tibetan (bo.po) by Tennom
+  * Czech (cs.po) by Miroslav Kure
+  * Welsh (cy.po) by Dafydd Tomos
+  * German (de.po) by Holger Wansing
+  * Estonian (et.po) by Mattias Põldaru
+  * Hebrew (he.po) by Lior Kaplan
+  * Hindi (hi.po) by Kumar Appaiah
+  * Indonesian (id.po) by Mahyuddin Susanto
+  * Icelandic (is.po) by Sveinn í Felli
+  * Italian (it.po) by Milo Casagrande
+  * Kannada (kn.po) by Prabodh C P
+  * Korean (ko.po) by Changwoo Ryu
+  * Lithuanian (lt.po) by Rimas Kudelis
+  * Latvian (lv.po) by Rūdolfs Mazurs
+  * Macedonian (mk.po) by Arangel Angov
+  * Panjabi (pa.po) by A S Alam
+  * Polish (pl.po) by Marcin Owsiany
+  * Portuguese (Brazil) (pt_BR.po) by Felipe Augusto van de Wiel (faw)
+  * Romanian (ro.po) by Ioan Eugen Stan
+  * Sinhala (si.po)
+  * Ukrainian (uk.po) by Borys Yanovych
+  * Simplified Chinese (zh_CN.po) by YunQiang Su
+
+ -- Christian Perrier <bubulle@debian.org>  Fri, 15 Jun 2012 19:24:52 +0200
+
 cdrom-checker (1.21) unstable; urgency=low
 
   [ Updated translations ]
