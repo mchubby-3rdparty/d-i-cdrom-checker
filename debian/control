@@ -10,6 +10,6 @@ Vcs-Git: git://git.debian.org/d-i/cdrom-checker.git
 Package: cdrom-checker
 Architecture: any
 Depends: cdrom-detect, cdebconf-udeb (>= 0.31)
-XC-Package-Type: udeb
+Package-Type: udeb
 XB-Installer-Menu-Item: 94000
 Description: Verify the cd contents
