@@ -159,7 +159,7 @@ int check_cdrom() {
 	return(status);
 }
 
-int main(int argc, char **argv) {
+int main(int argc __attribute__ ((unused)), char **argv) {
         di_system_init(basename(argv[0]));
 	/* initialize the debconf frontend */
 	debconf = debconfclient_new();
