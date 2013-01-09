@@ -22,6 +22,7 @@ CFLAGS = -W -Wall -Os -fomit-frame-pointer
 LD = gcc
 LDFLAGS =
 LDLIBS = -ldebconfclient -ldebian-installer
+STRIP = strip
 APP = cdrom-checker
 
 all: ${APP}
@@ -33,7 +34,7 @@ main.o: main.c main.h
 	${CC} ${CFLAGS} -c main.c
 
 strip: all
-	strip --remove-section=.comment --remove-section=.note ${APP}
+	${STRIP} --remove-section=.comment --remove-section=.note ${APP}
 
 clean:
 	rm -f *.o
