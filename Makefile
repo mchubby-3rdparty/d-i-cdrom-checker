@@ -20,7 +20,7 @@
 CC = gcc
 CFLAGS = -W -Wall -Os -fomit-frame-pointer
 LD = gcc
-LDLFAGS =
+LDFLAGS =
 LDLIBS = -ldebconfclient -ldebian-installer
 APP = cdrom-checker
 
