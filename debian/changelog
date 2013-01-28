@@ -1,9 +1,10 @@
-cdrom-checker (1.24) UNRELEASED; urgency=low
+cdrom-checker (1.24) unstable; urgency=low
 
+  [ Colin Watson ]
   * Fix "LDLFAGS" typo in Makefile.
   * Mark argc parameter to main as unused.
 
- -- Colin Watson <cjwatson@debian.org>  Wed, 09 Jan 2013 12:05:27 +0000
+ -- Christian Perrier <bubulle@debian.org>  Mon, 28 Jan 2013 06:57:08 +0100
 
 cdrom-checker (1.23) unstable; urgency=low
 
