@@ -29,8 +29,9 @@ msgstr ""
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:1001
+#, fuzzy
 msgid "Check CD-ROM integrity?"
-msgstr "Яклухтии CD-ROM-ро месанҷед?"
+msgstr "Санҷиши яклухтии CD-ROM(ҳо) "
 
 #. Type: boolean
 #. Description
@@ -38,8 +39,6 @@ msgstr "Яклухтии CD-ROM-ро месанҷед?"
 #: ../cdrom-checker.templates:1001
 msgid "Warning: this check depends on your hardware and may take some time."
 msgstr ""
-"Огоҳӣ: ин санҷиш аз сахтафзори шумо вобаста аст, ва метавонад якчанд вақтро "
-"гирад."
 
 #. Type: note
 #. Description
@@ -61,8 +60,9 @@ msgstr ""
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:3001
+#, fuzzy
 msgid "Failed to mount CD-ROM"
-msgstr "CD-ROM васл карда нашуд"
+msgstr "Диски нарм васл карда нашуд"
 
 #. Type: error
 #. Description
@@ -72,8 +72,6 @@ msgid ""
 "The CD-ROM ${CDROM} could not be mounted correctly. Please check the media "
 "and cables, and try it again."
 msgstr ""
-"CD-ROM-и ${CDROM} наметавонад ба таври дуруст васл карда шавад. Лутфан, "
-"захирагоҳҳо ва симҳоро санҷед ва амалро такрор кунед."
 
 #. Type: error
 #. Description
@@ -96,8 +94,9 @@ msgstr ""
 #. TRANSLATORS: MD5 is a file name, don't translate it.
 #. :sl3:
 #: ../cdrom-checker.templates:5001
+#, fuzzy
 msgid "Failed to open checksum file"
-msgstr "Файли натиҷаи муқобила кушода нашуд"
+msgstr "Диски нарм васл карда нашуд"
 
 #. Type: error
 #. Description
@@ -108,15 +107,13 @@ msgid ""
 "Opening the MD5 file on the CD-ROM failed. This file contains the checksums "
 "of the files located on the CD-ROM."
 msgstr ""
-"Кушодани файли MD5 дар CD-ROM бо нокомиҳо дучор шудааст. Ин файл дорои "
-"натиҷаҳои муқобилаи файлҳои дар CD-ROM мавҷудбуда мебошад."
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:6001
 msgid "Integrity test successful"
-msgstr "Санҷиши яклухтӣ бомуваффақият ба анҷом нарасид"
+msgstr ""
 
 #. Type: note
 #. Description
@@ -124,15 +121,14 @@ msgstr "Санҷиши яклухтӣ бомуваффақият ба анҷом
 #: ../cdrom-checker.templates:6001
 msgid "The CD-ROM integrity test was successful. The CD-ROM is valid."
 msgstr ""
-"Санҷиши яклухтии CD-ROM бомуваффақият ба анҷом расид. CD-ROM боэътибор "
-"мебошад."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:7001
+#, fuzzy
 msgid "Integrity test failed"
-msgstr "Санҷиши яклухтӣ ба анҷом нарасид"
+msgstr "Қадами насбкунӣ қатъ шудааст"
 
 #. Type: error
 #. Description
@@ -142,45 +138,47 @@ msgid ""
 "The ${FILE} file failed the MD5 checksum verification. Your CD-ROM or this "
 "file may have been corrupted."
 msgstr ""
-"Тафтиши натиҷаи муқобилаи MD5-и файли ${FILE} ба анҷом нарасид. Эҳтимол аст, "
-"ки CD-ROM-и шумо, ё ки ин файл харобшуда мебошад."
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:8001
 msgid "Check the integrity of another CD-ROM?"
-msgstr "Яклухтии CD-ROM-и дигарро месанҷед?"
-
-#. Type: note
-#. Description
-#. :sl3:
-#: ../cdrom-checker.templates:9001
-msgid "Insert Debian boot CD-ROM"
 msgstr ""
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:9001
+#, fuzzy
+msgid "Insert Debian boot CD-ROM"
+msgstr "Муайян ва васл кардани CD-ROM"
+
+#. Type: note
+#. Description
+#. :sl3:
+#: ../cdrom-checker.templates:9001
+#, fuzzy
 msgid ""
 "Please make sure you have inserted the Debian boot CD-ROM  to continue with "
 "the installation."
-msgstr ""
+msgstr "Барои идомаи насбкунӣ, лутфан CD-и мувофиқро дарҷ кунед."
 
 #. Type: text
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:10001
+#, fuzzy
 msgid "Checking CD-ROM integrity"
-msgstr "Санҷиши яклухтии CD-ROM"
+msgstr "Санҷиши яклухтии CD-ROM(ҳо) "
 
 #. Type: text
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:11001
+#, fuzzy
 msgid "Checking file: ${FILE}"
-msgstr "Санҷиши файл: ${FILE}"
+msgstr "Файлҳои намерасидагӣ дар нармафзори дарунсохт: ${FILES}"
 
 #. Type: text
 #. Description
