@@ -16,8 +16,8 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
 "POT-Creation-Date: 2008-01-26 07:32+0000\n"
-"PO-Revision-Date: 2013-08-15 16:26+0500\n"
-"Last-Translator: Victor Ibragimov <victor.ibragimov@gmail.com>\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
 "Language-Team: Tajik <victor.ibragimov@gmail.com>\n"
 "Language: Tajik\n"
 "MIME-Version: 1.0\n"
@@ -31,7 +31,7 @@ msgstr ""
 #: ../cdrom-checker.templates:1001
 #, fuzzy
 msgid "Check CD-ROM integrity?"
-msgstr "Санҷиши яклухтии CD-ROM(ҳо) "
+msgstr "  CD-ROM() "
 
 #. Type: boolean
 #. Description
@@ -62,7 +62,7 @@ msgstr ""
 #: ../cdrom-checker.templates:3001
 #, fuzzy
 msgid "Failed to mount CD-ROM"
-msgstr "Диски нарм васл карда нашуд"
+msgstr "    "
 
 #. Type: error
 #. Description
@@ -96,7 +96,7 @@ msgstr ""
 #: ../cdrom-checker.templates:5001
 #, fuzzy
 msgid "Failed to open checksum file"
-msgstr "Диски нарм васл карда нашуд"
+msgstr "    "
 
 #. Type: error
 #. Description
@@ -128,7 +128,7 @@ msgstr ""
 #: ../cdrom-checker.templates:7001
 #, fuzzy
 msgid "Integrity test failed"
-msgstr "Қадами насбкунӣ қатъ шудааст"
+msgstr "   "
 
 #. Type: error
 #. Description
@@ -152,7 +152,7 @@ msgstr ""
 #: ../cdrom-checker.templates:9001
 #, fuzzy
 msgid "Insert Debian boot CD-ROM"
-msgstr "Муайян ва васл кардани CD-ROM"
+msgstr "    CD-ROM"
 
 #. Type: note
 #. Description
@@ -162,7 +162,7 @@ msgstr "Муайян ва васл кардани CD-ROM"
 msgid ""
 "Please make sure you have inserted the Debian boot CD-ROM  to continue with "
 "the installation."
-msgstr "Барои идомаи насбкунӣ, лутфан CD-и мувофиқро дарҷ кунед."
+msgstr "  ,  CD-   ."
 
 #. Type: text
 #. Description
@@ -170,7 +170,7 @@ msgstr "Барои идомаи насбкунӣ, лутфан CD-и мувоф�
 #: ../cdrom-checker.templates:10001
 #, fuzzy
 msgid "Checking CD-ROM integrity"
-msgstr "Санҷиши яклухтии CD-ROM(ҳо) "
+msgstr "  CD-ROM() "
 
 #. Type: text
 #. Description
@@ -178,7 +178,7 @@ msgstr "Санҷиши яклухтии CD-ROM(ҳо) "
 #: ../cdrom-checker.templates:11001
 #, fuzzy
 msgid "Checking file: ${FILE}"
-msgstr "Файлҳои намерасидагӣ дар нармафзори дарунсохт: ${FILES}"
+msgstr "    : ${FILES}"
 
 #. Type: text
 #. Description
