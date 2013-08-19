@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
 "POT-Creation-Date: 2008-01-26 07:32+0000\n"
-"PO-Revision-Date: 2013-08-18 00:02+0500\n"
+"PO-Revision-Date: 2013-08-20 00:10+0500\n"
 "Last-Translator: Victor Ibragimov <victor.ibragimov@gmail.com>\n"
 "Language-Team: Tajik <victor.ibragimov@gmail.com>\n"
 "Language: Tajik\n"
@@ -56,6 +56,8 @@ msgid ""
 "Please insert one of the official Debian CD-ROMs into the drive before "
 "continuing."
 msgstr ""
+"Лутфан, пеш аз идома додан, диски CD-ROM-и расмии Debian-ро ба драйв дарҷ "
+"намоед."
 
 #. Type: error
 #. Description
@@ -90,6 +92,8 @@ msgid ""
 "The CD-ROM you have inserted is not a valid Debian CD-ROM. Please change the "
 "disk."
 msgstr ""
+"Диски CD-ROM-и Debian-е, ки шумо дарҷ кардед беэътибор аст. Лутфан, диски "
+"дигареро дарҷ намоед."
 
 #. Type: error
 #. Description
@@ -167,6 +171,8 @@ msgid ""
 "Please make sure you have inserted the Debian boot CD-ROM  to continue with "
 "the installation."
 msgstr ""
+"Лутфан, мутмаин шавед, ки шумо барои идома додани насбкунӣ диски роҳандозии "
+"CD-ROM-и Debian-ро дарҷ кардед."
 
 #. Type: text
 #. Description
