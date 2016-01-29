@@ -1,3 +1,9 @@
+cdrom-checker (1.32) UNRELEASED; urgency=medium
+
+  * Use HTTPS for Vcs-* URLs, and link to cgit rather than gitweb.
+
+ -- Colin Watson <cjwatson@debian.org>  Fri, 29 Jan 2016 13:35:15 +0000
+
 cdrom-checker (1.31) unstable; urgency=medium
 
   [ Updated translations ]
