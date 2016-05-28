@@ -3,46 +3,26 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# translation of te.po to Telugu
-# Telugu translation for debian-installer
-# This file is distributed under the same license as the debian-installer package.
-# వీవెన్ (Veeven) <launchpad.net>, 2007.
-# Y Giridhar Appaji Nag <giridhar@appaji.net>, 2008.
-# Arjuna Rao Chavala <arjunaraoc@gmail.com>,2010
-# Copyright (c) 2007 Rosetta Contributors and Canonical Ltd 2007
-msgid ""
-msgstr ""
-"Project-Id-Version: te\n"
-"Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
-"POT-Creation-Date: 2008-01-26 07:32+0000\n"
-"PO-Revision-Date: 2011-01-19 21:00+0530\n"
-"Last-Translator: Arjuna Rao Chavala <arjunaraoc@gmail.com>\n"
-"Language-Team: Telugu <debian-in-workers@lists.alioth.debian.org>\n"
-"Language: te\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:1001
 msgid "Check CD-ROM integrity?"
-msgstr "CD-ROM నిబద్దత  పరిశీలన?"
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:1001
 msgid "Warning: this check depends on your hardware and may take some time."
-msgstr "హెచ్చరిక: ఈ  పరిశీలన మీ హార్డ్వేర్  పై అధారపడివుంది మరియు  కొంత సమయం పట్టవచ్చు."
+msgstr ""
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:2001
 msgid "Insert a Debian CD-ROM"
-msgstr "డెబియన్  CD-ROM ప్రవేశ పెట్టు"
+msgstr ""
 
 #. Type: note
 #. Description
@@ -51,14 +31,14 @@ msgstr "డెబియన్  CD-ROM ప్రవేశ పెట్టు"
 msgid ""
 "Please insert one of the official Debian CD-ROMs into the drive before "
 "continuing."
-msgstr "కొనసాగించుటకు ముందు అధికారిక డెబియన్  CD-ROM లలో ఒకదానిని దయచేసి   డ్రైవ్ లో ప్రవేశపెట్టండి."
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:3001
 msgid "Failed to mount CD-ROM"
-msgstr "CD-ROM అనుసంధానం  విఫలం"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -67,14 +47,14 @@ msgstr "CD-ROM అనుసంధానం  విఫలం"
 msgid ""
 "The CD-ROM ${CDROM} could not be mounted correctly. Please check the media "
 "and cables, and try it again."
-msgstr "CD-ROM ${CDROM} సరిగా అనుసంధానం కాలేదు.  మాధ్యమాన్ని తీగలను పరిశీలించి మరల ప్రయత్నించు."
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:4001
 msgid "No valid Debian CD-ROM"
-msgstr "సరిపోయిన  డెబియన్ CD-ROM లేదు  "
+msgstr ""
 
 #. Type: error
 #. Description
@@ -83,7 +63,7 @@ msgstr "సరిపోయిన  డెబియన్ CD-ROM లేదు  "
 msgid ""
 "The CD-ROM you have inserted is not a valid Debian CD-ROM. Please change the "
 "disk."
-msgstr "మీరు ప్రవేశ పెట్టిన CD-ROM  సరిపోయిన డెబియన్   CD-ROM కాదు.  దయచేసి డిస్క్ మార్చండి."
+msgstr ""
 
 #. Type: error
 #. Description
@@ -91,7 +71,7 @@ msgstr "మీరు ప్రవేశ పెట్టిన CD-ROM  సరి�
 #. :sl3:
 #: ../cdrom-checker.templates:5001
 msgid "Failed to open checksum file"
-msgstr "చెక్సమ్ ఫైల్  తెరుచుట విఫలం"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -102,28 +82,27 @@ msgid ""
 "Opening the MD5 file on the CD-ROM failed. This file contains the checksums "
 "of the files located on the CD-ROM."
 msgstr ""
-"CD-ROM పై MD5 ఫైలు  తెరుచుట  విఫలం. ఈ ఫైలులో  CD-ROMలో గల అన్ని ఫైళ్ల  checksums వుంటాయి."
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:6001
 msgid "Integrity test successful"
-msgstr "నిబద్దత పరిశీలన సఫలం"
+msgstr ""
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:6001
 msgid "The CD-ROM integrity test was successful. The CD-ROM is valid."
-msgstr "CD-ROM నిబద్దత పరిశీలన సఫలం. CD-ROM సరిగా వున్నది"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:7001
 msgid "Integrity test failed"
-msgstr "నిబద్దత పరిశీలన విఫలం"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -133,21 +112,20 @@ msgid ""
 "The ${FILE} file failed the MD5 checksum verification. Your CD-ROM or this "
 "file may have been corrupted."
 msgstr ""
-"${FILE}  ఫైల్  MD5 checksum పరిశీలన లో దోషం. మీ  CD-ROM లేక ఈ ఫైల్   చెడిపోయివుండవచ్చు."
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:8001
 msgid "Check the integrity of another CD-ROM?"
-msgstr "ఇంకొక CD-ROM నిబద్దతని పరిశీలించాలా?"
+msgstr ""
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:9001
 msgid "Insert Debian boot CD-ROM"
-msgstr "డెబియన్ బూట్ CD-ROM ప్రవేశపెట్టు"
+msgstr ""
 
 #. Type: note
 #. Description
@@ -156,21 +134,21 @@ msgstr "డెబియన్ బూట్ CD-ROM ప్రవేశపెట్
 msgid ""
 "Please make sure you have inserted the Debian boot CD-ROM  to continue with "
 "the installation."
-msgstr "స్థాపన కొనసాగించుటకు డెబియన్ బూట్ CD-ROM  ప్రవేశపెట్టినట్లు నిర్ధారించుకో."
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:10001
 msgid "Checking CD-ROM integrity"
-msgstr "CD-ROM నిబద్దత పరిశీలన"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:11001
 msgid "Checking file: ${FILE}"
-msgstr "పరిశీలనలో గల ఫైల్ : ${FILE}"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -179,4 +157,4 @@ msgstr "పరిశీలనలో గల ఫైల్ : ${FILE}"
 #. :sl2:
 #: ../cdrom-checker.templates:12001
 msgid "Check the CD-ROM(s) integrity"
-msgstr "CD-ROM(లు) సమగ్రతని పరిశీలించు"
+msgstr ""

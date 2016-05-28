@@ -3,44 +3,26 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# Traditional Chinese messages for debian-installer.
-# Copyright (C) 2003 Software in the Public Interest, Inc.
-# This file is distributed under the same license as debian-installer.
-#
-msgid ""
-msgstr ""
-"Project-Id-Version: debian-installer\n"
-"Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
-"POT-Creation-Date: 2008-01-26 07:32+0000\n"
-"PO-Revision-Date: 2008-08-09 00:35+0800\n"
-"Last-Translator: Tetralet <tetralet@gmail.com>\n"
-"Language-Team: Debian-user in Chinese [Big5] <debian-chinese-big5@lists."
-"debian.org>\n"
-"Language: \n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:1001
 msgid "Check CD-ROM integrity?"
-msgstr "是否要檢驗光碟的完整性？"
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:1001
 msgid "Warning: this check depends on your hardware and may take some time."
-msgstr "警告：該檢驗依您的硬體效能而定，可能會花上一點時間。"
+msgstr ""
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:2001
 msgid "Insert a Debian CD-ROM"
-msgstr "放入一張 Debian 光碟"
+msgstr ""
 
 #. Type: note
 #. Description
@@ -49,14 +31,14 @@ msgstr "放入一張 Debian 光碟"
 msgid ""
 "Please insert one of the official Debian CD-ROMs into the drive before "
 "continuing."
-msgstr "在繼續之前，請放入一片 Debian 官方的光碟到光碟機裡。"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:3001
 msgid "Failed to mount CD-ROM"
-msgstr "無法掛載光碟"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -65,14 +47,14 @@ msgstr "無法掛載光碟"
 msgid ""
 "The CD-ROM ${CDROM} could not be mounted correctly. Please check the media "
 "and cables, and try it again."
-msgstr "無法正確掛載 ${CDROM} 光碟。請檢查一下光碟片和排線，然後再試一次。"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:4001
 msgid "No valid Debian CD-ROM"
-msgstr "並不是正確的 Debian 光碟"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -81,7 +63,7 @@ msgstr "並不是正確的 Debian 光碟"
 msgid ""
 "The CD-ROM you have inserted is not a valid Debian CD-ROM. Please change the "
 "disk."
-msgstr "您所放入的光碟並不是正確的 Debian 光碟。請更換光碟片。"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -89,7 +71,7 @@ msgstr "您所放入的光碟並不是正確的 Debian 光碟。請更換光碟�
 #. :sl3:
 #: ../cdrom-checker.templates:5001
 msgid "Failed to open checksum file"
-msgstr "無法打開 Checksum 檔"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -100,28 +82,27 @@ msgid ""
 "Opening the MD5 file on the CD-ROM failed. This file contains the checksums "
 "of the files located on the CD-ROM."
 msgstr ""
-"在開啟光碟上的 MD5 檔案時失敗了。這個檔案包含了光碟上所有檔案的 Checksum。"
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:6001
 msgid "Integrity test successful"
-msgstr "已通過完整性檢驗"
+msgstr ""
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:6001
 msgid "The CD-ROM integrity test was successful. The CD-ROM is valid."
-msgstr "已順利通過光碟完整性檢驗。這是張正確的光碟。"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:7001
 msgid "Integrity test failed"
-msgstr "完整性檢驗失敗"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -131,22 +112,20 @@ msgid ""
 "The ${FILE} file failed the MD5 checksum verification. Your CD-ROM or this "
 "file may have been corrupted."
 msgstr ""
-"在驗証檔案 ${FILE} 的 MD5 Checksum 時失敗了。您的光碟或是這個檔案可能已經損"
-"壞。"
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:8001
 msgid "Check the integrity of another CD-ROM?"
-msgstr "是否檢驗另一張光碟的完整性？"
+msgstr ""
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:9001
 msgid "Insert Debian boot CD-ROM"
-msgstr "放入 Debian 的開機光碟"
+msgstr ""
 
 #. Type: note
 #. Description
@@ -155,21 +134,21 @@ msgstr "放入 Debian 的開機光碟"
 msgid ""
 "Please make sure you have inserted the Debian boot CD-ROM  to continue with "
 "the installation."
-msgstr "請確認您已經放入了 Debian 開機光碟以便能繼續安裝作業。"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:10001
 msgid "Checking CD-ROM integrity"
-msgstr "檢驗光碟的完整性"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:11001
 msgid "Checking file: ${FILE}"
-msgstr "檢驗檔案：${FILE}"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -178,4 +157,4 @@ msgstr "檢驗檔案：${FILE}"
 #. :sl2:
 #: ../cdrom-checker.templates:12001
 msgid "Check the CD-ROM(s) integrity"
-msgstr "檢驗光碟的完整性"
+msgstr ""
