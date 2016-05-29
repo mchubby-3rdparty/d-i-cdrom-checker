@@ -3,12 +3,47 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
+# translation of lv.po to Latvian
+# Latvian messages for debian-installer.
+# Copyright (C) 2003 Software in the Public Interest, Inc.
+# This file is distributed under the same license as debian-installer.
+#
+# Translations from iso-codes:
+# Copyright (C) Free Software Foundation, Inc., 2001,2003.
+# Translations from KDE:
+# Andris Maziks <andzha@latnet.lv>
+#
+#
+# Aigars Mahinovs <aigarius@debian.org>, 2006, 2008.
+# Viesturs Zarins <viesturs.zarins@mii.lu.lv>, 2008.
+# Aigars Mahinovs <aigarius@debian.org>, 2006.
+# Alastair McKinstry <mckinstry@computer.org>, 2001, 2002.
+# Free Software Foundation, Inc., 2002,2004.
+# Juris Kudiņš <cooker@inbox.lv>, 2001.
+# Rihards Priedītis <rprieditis@gmail.com>, 2009, 2010.
+# Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>, 2012, 2013.
+# Peteris Krisjanis <pecisk@gmail.com>, 2008, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: lv\n"
+"Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
+"POT-Creation-Date: 2008-01-26 07:32+0000\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: Latvian <lata-l10n@googlegroups.com>\n"
+"Language: lv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
+"2)\n"
+
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:1001
 msgid "Check CD-ROM integrity?"
-msgstr ""
+msgstr "Pārbaudīt CD-ROM integritāti?"
 
 #. Type: boolean
 #. Description
@@ -16,13 +51,14 @@ msgstr ""
 #: ../cdrom-checker.templates:1001
 msgid "Warning: this check depends on your hardware and may take some time."
 msgstr ""
+"Uzmanību: šis tests ir atkarīgs no jūsu aparatūras un var aizņemt kādu laiku."
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:2001
 msgid "Insert a Debian CD-ROM"
-msgstr ""
+msgstr "Ielieciet Debian kompaktdisku"
 
 #. Type: note
 #. Description
@@ -32,13 +68,15 @@ msgid ""
 "Please insert one of the official Debian CD-ROMs into the drive before "
 "continuing."
 msgstr ""
+"Pirms turpināt, lūdzu, ielieciet diskdzinī vienu no oficiālajiem Debian "
+"kompaktdiskiem."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:3001
 msgid "Failed to mount CD-ROM"
-msgstr ""
+msgstr "Nevarēja piemontēt CD-ROM"
 
 #. Type: error
 #. Description
@@ -48,13 +86,15 @@ msgid ""
 "The CD-ROM ${CDROM} could not be mounted correctly. Please check the media "
 "and cables, and try it again."
 msgstr ""
+"CD-ROM ${CDROM} neizdevās piemontēt. Lūdzu, pārbaudiet datu nesēju un vadus, "
+"un mēģiniet vēlreiz."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:4001
 msgid "No valid Debian CD-ROM"
-msgstr ""
+msgstr "Nav atrasts derīgs Debian CD"
 
 #. Type: error
 #. Description
@@ -63,7 +103,7 @@ msgstr ""
 msgid ""
 "The CD-ROM you have inserted is not a valid Debian CD-ROM. Please change the "
 "disk."
-msgstr ""
+msgstr "Ievietotais kompaktdisks nav Debian CD. Lūdzu, nomainiet disku."
 
 #. Type: error
 #. Description
@@ -71,7 +111,7 @@ msgstr ""
 #. :sl3:
 #: ../cdrom-checker.templates:5001
 msgid "Failed to open checksum file"
-msgstr ""
+msgstr "Neizdevās atvērt kontrolsummas datni"
 
 #. Type: error
 #. Description
@@ -82,13 +122,15 @@ msgid ""
 "Opening the MD5 file on the CD-ROM failed. This file contains the checksums "
 "of the files located on the CD-ROM."
 msgstr ""
+"Neizdevās atvērt MD5 datni kompaktdiskā. Šī datne satur citu datņu "
+"kontrolsummas."
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:6001
 msgid "Integrity test successful"
-msgstr ""
+msgstr "Integritātes tests sekmīgi pabeigts"
 
 #. Type: note
 #. Description
@@ -96,13 +138,14 @@ msgstr ""
 #: ../cdrom-checker.templates:6001
 msgid "The CD-ROM integrity test was successful. The CD-ROM is valid."
 msgstr ""
+"CD-ROM integritātes pārbaude sekmīgi pabeigta. Šis kompaktdisks ir derīgs."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:7001
 msgid "Integrity test failed"
-msgstr ""
+msgstr "Integritātes tests beidzās nesekmīgi"
 
 #. Type: error
 #. Description
@@ -112,20 +155,22 @@ msgid ""
 "The ${FILE} file failed the MD5 checksum verification. Your CD-ROM or this "
 "file may have been corrupted."
 msgstr ""
+"Datne ${FILE} neizturēja MD5 kontrolsummas pārbaudi. Jūsu CD-ROM vai šī "
+"datne varētu būt bojāta."
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:8001
 msgid "Check the integrity of another CD-ROM?"
-msgstr ""
+msgstr "Pārbaudīt cita CD-ROM integritāti?"
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:9001
 msgid "Insert Debian boot CD-ROM"
-msgstr ""
+msgstr "Ielieciet Debian palaišanas CD"
 
 #. Type: note
 #. Description
@@ -134,21 +179,21 @@ msgstr ""
 msgid ""
 "Please make sure you have inserted the Debian boot CD-ROM  to continue with "
 "the installation."
-msgstr ""
+msgstr "Lūdzu, ielieciet Debian palaišanas CD, lai turpinātu instalēšanu."
 
 #. Type: text
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:10001
 msgid "Checking CD-ROM integrity"
-msgstr ""
+msgstr "Pārbauda CD-ROM integritāti"
 
 #. Type: text
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:11001
 msgid "Checking file: ${FILE}"
-msgstr ""
+msgstr "Pārbauda datni: ${FILE}"
 
 #. Type: text
 #. Description
@@ -157,4 +202,4 @@ msgstr ""
 #. :sl2:
 #: ../cdrom-checker.templates:12001
 msgid "Check the CD-ROM(s) integrity"
-msgstr ""
+msgstr "CD-ROM integritātes pārbaude"

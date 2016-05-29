@@ -3,26 +3,55 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
+# Croatian messages for debian-installer.
+# Copyright (C) 2003 Software in the Public Interest, Inc.
+# This file is distributed under the same license as debian-installer.
+#
+#
+# Translations from iso-codes:
+#   Alastair McKinstry <mckinstry@computer.org>, 2001, 2004.
+#   Free Software Foundation, Inc., 2000,2004
+#   Josip Rodin, 2008
+#   Krunoslav Gernhard, 2004
+#   Vladimir Vuksan <vuksan@veus.hr>, 2000.
+#   Vlatko Kosturjak, 2001
+# Tomislav Krznar <tomislav.krznar@gmail.com>, 2012, 2013, 2014, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Debian-installer 1st-stage master file HR\n"
+"Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
+"POT-Creation-Date: 2008-01-26 07:32+0000\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: Croatian <lokalizacija@linux.hr>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:1001
 msgid "Check CD-ROM integrity?"
-msgstr ""
+msgstr "Provjeriti potpunost CD-ROM-a?"
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:1001
 msgid "Warning: this check depends on your hardware and may take some time."
-msgstr ""
+msgstr "Upozorenje: ova provjera ovisi o vašem sklopovlju i može potrajati."
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:2001
 msgid "Insert a Debian CD-ROM"
-msgstr ""
+msgstr "Ubacite Debianov CD-ROM"
 
 #. Type: note
 #. Description
@@ -32,13 +61,15 @@ msgid ""
 "Please insert one of the official Debian CD-ROMs into the drive before "
 "continuing."
 msgstr ""
+"Molim ubacite jedan od službenih Debianovih CD-ROM-ova u pogon prije negoli "
+"nastavite."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:3001
 msgid "Failed to mount CD-ROM"
-msgstr ""
+msgstr "Ne mogu montirati CD-ROM"
 
 #. Type: error
 #. Description
@@ -48,13 +79,15 @@ msgid ""
 "The CD-ROM ${CDROM} could not be mounted correctly. Please check the media "
 "and cables, and try it again."
 msgstr ""
+"CD-ROM ${CDROM} nije moguće pravilno montirati. Molim provjerite medij i "
+"spojne kablove i pokušajte iznova."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:4001
 msgid "No valid Debian CD-ROM"
-msgstr ""
+msgstr "Nije ispravan Debianov CD-ROM"
 
 #. Type: error
 #. Description
@@ -64,6 +97,8 @@ msgid ""
 "The CD-ROM you have inserted is not a valid Debian CD-ROM. Please change the "
 "disk."
 msgstr ""
+"CD-ROM kojega ste ubacili nije ispravan Debianov CD-ROM. Molim zamijenite "
+"disk."
 
 #. Type: error
 #. Description
@@ -71,7 +106,7 @@ msgstr ""
 #. :sl3:
 #: ../cdrom-checker.templates:5001
 msgid "Failed to open checksum file"
-msgstr ""
+msgstr "Otvaranje datoteke s kontrolnom sumom nije uspjelo"
 
 #. Type: error
 #. Description
@@ -82,27 +117,29 @@ msgid ""
 "Opening the MD5 file on the CD-ROM failed. This file contains the checksums "
 "of the files located on the CD-ROM."
 msgstr ""
+"Otvaranje MD5 datoteke na CD-ROM-u nije uspjelo. Ta datoteka sadrži provjere "
+"svih datoteka koje su na CD-ROM-u."
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:6001
 msgid "Integrity test successful"
-msgstr ""
+msgstr "Provjera potpunosti uspjela"
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:6001
 msgid "The CD-ROM integrity test was successful. The CD-ROM is valid."
-msgstr ""
+msgstr "Provjera potpunosti CD-ROM-a uspjela. CD-ROM je ispravan."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:7001
 msgid "Integrity test failed"
-msgstr ""
+msgstr "Provjera potpunosti nije uspjela"
 
 #. Type: error
 #. Description
@@ -112,20 +149,22 @@ msgid ""
 "The ${FILE} file failed the MD5 checksum verification. Your CD-ROM or this "
 "file may have been corrupted."
 msgstr ""
+"Datoteka ${FILE} nije prošla MD5 provjeru. Možda su vaš CD-ROM ili ta "
+"datoteka neispravni."
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:8001
 msgid "Check the integrity of another CD-ROM?"
-msgstr ""
+msgstr "Provjeri potpunost drugog CD-ROM-a?"
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:9001
 msgid "Insert Debian boot CD-ROM"
-msgstr ""
+msgstr "Ubacite Debianov boot CD-ROM"
 
 #. Type: note
 #. Description
@@ -135,20 +174,22 @@ msgid ""
 "Please make sure you have inserted the Debian boot CD-ROM  to continue with "
 "the installation."
 msgstr ""
+"Molim provjerite da li ste ubacili Debianov boot CD-ROM, da bi nastavili s "
+"instalacijom."
 
 #. Type: text
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:10001
 msgid "Checking CD-ROM integrity"
-msgstr ""
+msgstr "Provjeravam potpunost CD-ROM-a"
 
 #. Type: text
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:11001
 msgid "Checking file: ${FILE}"
-msgstr ""
+msgstr "Provjeravam datoteku: ${FILE}"
 
 #. Type: text
 #. Description
@@ -157,4 +198,4 @@ msgstr ""
 #. :sl2:
 #: ../cdrom-checker.templates:12001
 msgid "Check the CD-ROM(s) integrity"
-msgstr ""
+msgstr "Provjeri potpunost CD-ROM-ova"

@@ -3,12 +3,44 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
+# Japanese messages for debian-installer.
+# Copyright (C) 2003 Software in the Public Interest, Inc.
+# This file is distributed under the same license as debian-installer.
+#
+#
+# Translations from iso-codes:
+#   Alastair McKinstry <mckinstry@computer.org>, 2001, 2002.
+#   Free Software Foundation, Inc., 2000, 2001, 2004, 2005, 2006
+#   IIDA Yosiaki <iida@gnu.org>, 2004, 2005, 2006.
+#   Kenshi Muto <kmuto@debian.org>, 2006-2007
+#   Takayuki KUSANO <AE5T-KSN@asahi-net.or.jp>, 2001.
+#   Takuro Ashie <ashie@homa.ne.jp>, 2001.
+#   Tobias Quathamer <toddy@debian.org>, 2007.
+#     Translations taken from ICU SVN on 2007-09-09
+#   Translations from KDE: 
+#   - Taiki Komoda <kom@kde.gr.jp>
+#   Yasuaki Taniguchi <yasuakit@gmail.com>, 2010, 2011.
+#   Yukihiro Nakai <nakai@gnome.gr.jp>, 2000.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: debian-installer\n"
+"Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
+"POT-Creation-Date: 2008-01-26 07:32+0000\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: Debian L10n Japanese <debian-japanese@lists.debian.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:1001
 msgid "Check CD-ROM integrity?"
-msgstr ""
+msgstr "CD-ROM の完全性をチェックしますか?"
 
 #. Type: boolean
 #. Description
@@ -16,13 +48,14 @@ msgstr ""
 #: ../cdrom-checker.templates:1001
 msgid "Warning: this check depends on your hardware and may take some time."
 msgstr ""
+"警告: このチェックはあなたのハードウェアに依存し、いくぶん時間がかかります。"
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:2001
 msgid "Insert a Debian CD-ROM"
-msgstr ""
+msgstr "Debian CD-ROM の挿入"
 
 #. Type: note
 #. Description
@@ -31,14 +64,14 @@ msgstr ""
 msgid ""
 "Please insert one of the official Debian CD-ROMs into the drive before "
 "continuing."
-msgstr ""
+msgstr "続ける前に、公式 Debian CD-ROM の 1 枚をドライブに挿入してください。"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:3001
 msgid "Failed to mount CD-ROM"
-msgstr ""
+msgstr "CD-ROM のマウントに失敗しました"
 
 #. Type: error
 #. Description
@@ -48,13 +81,15 @@ msgid ""
 "The CD-ROM ${CDROM} could not be mounted correctly. Please check the media "
 "and cables, and try it again."
 msgstr ""
+"CD-ROM ${CDROM} は正常にマウントできませんでした。メディアとケーブルを確認し"
+"て、再度試してください。"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:4001
 msgid "No valid Debian CD-ROM"
-msgstr ""
+msgstr "有効な Debian CD-ROM がありません"
 
 #. Type: error
 #. Description
@@ -64,6 +99,8 @@ msgid ""
 "The CD-ROM you have inserted is not a valid Debian CD-ROM. Please change the "
 "disk."
 msgstr ""
+"挿入した CD-ROM は有効な Debian CD-ROM ではありません。ディスクを交換してくだ"
+"さい。"
 
 #. Type: error
 #. Description
@@ -71,7 +108,7 @@ msgstr ""
 #. :sl3:
 #: ../cdrom-checker.templates:5001
 msgid "Failed to open checksum file"
-msgstr ""
+msgstr "チェックサムファイルを開くのに失敗しました"
 
 #. Type: error
 #. Description
@@ -82,27 +119,29 @@ msgid ""
 "Opening the MD5 file on the CD-ROM failed. This file contains the checksums "
 "of the files located on the CD-ROM."
 msgstr ""
+"CD-ROM の MD5 ファイルのオープンに失敗しました。このファイルは、CD-ROM に置か"
+"れているファイルのチェックサムを格納しています。"
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:6001
 msgid "Integrity test successful"
-msgstr ""
+msgstr "完全性テストに成功しました"
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:6001
 msgid "The CD-ROM integrity test was successful. The CD-ROM is valid."
-msgstr ""
+msgstr "CD-ROM の完全性は確かです。CD-ROM は有効です。"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:7001
 msgid "Integrity test failed"
-msgstr ""
+msgstr "完全性テストに失敗しました"
 
 #. Type: error
 #. Description
@@ -112,20 +151,22 @@ msgid ""
 "The ${FILE} file failed the MD5 checksum verification. Your CD-ROM or this "
 "file may have been corrupted."
 msgstr ""
+"${FILE} ファイルの MD5 チェックサム検証に失敗しました。CD-ROM またはこのファ"
+"イルが壊れています。"
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:8001
 msgid "Check the integrity of another CD-ROM?"
-msgstr ""
+msgstr "別の CD-ROM の完全性も確認しますか?"
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:9001
 msgid "Insert Debian boot CD-ROM"
-msgstr ""
+msgstr "Debian ブート CD-ROM の挿入"
 
 #. Type: note
 #. Description
@@ -135,20 +176,22 @@ msgid ""
 "Please make sure you have inserted the Debian boot CD-ROM  to continue with "
 "the installation."
 msgstr ""
+"インストールを続けるために Debian のブート CD-ROM を挿入していることを確認し"
+"てください。"
 
 #. Type: text
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:10001
 msgid "Checking CD-ROM integrity"
-msgstr ""
+msgstr "CD-ROM の完全性をチェックしています"
 
 #. Type: text
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:11001
 msgid "Checking file: ${FILE}"
-msgstr ""
+msgstr "ファイルをチェックしています: ${FILE}"
 
 #. Type: text
 #. Description
@@ -157,4 +200,4 @@ msgstr ""
 #. :sl2:
 #: ../cdrom-checker.templates:12001
 msgid "Check the CD-ROM(s) integrity"
-msgstr ""
+msgstr "CD-ROM の完全性チェック"
