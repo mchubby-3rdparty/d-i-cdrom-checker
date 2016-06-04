@@ -3,12 +3,28 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
+# Tibetan translation for Debian Installer.
+msgid ""
+msgstr ""
+"Project-Id-Version: debian-installer\n"
+"Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
+"POT-Creation-Date: 2008-01-26 07:32+0000\n"
+"PO-Revision-Date: 2012-04-14 22:12+0600\n"
+"Last-Translator: Tennom <tankola@ymail.com, tennomyathog@gmail.com>\n"
+"Language-Team: bo <translation-team-bo@lists.sourceforge.net>\n"
+"Language: bo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:1001
+#, fuzzy
 msgid "Check CD-ROM integrity?"
-msgstr ""
+msgstr "འོད་སྡེར་གྱི་དག་ཚད་ལྟ་བ"
 
 #. Type: boolean
 #. Description
@@ -37,8 +53,9 @@ msgstr ""
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:3001
+#, fuzzy
 msgid "Failed to mount CD-ROM"
-msgstr ""
+msgstr "མཉེན་སྡེར་བཀར་མ་ཐུབ་པ"
 
 #. Type: error
 #. Description
@@ -70,8 +87,9 @@ msgstr ""
 #. TRANSLATORS: MD5 is a file name, don't translate it.
 #. :sl3:
 #: ../cdrom-checker.templates:5001
+#, fuzzy
 msgid "Failed to open checksum file"
-msgstr ""
+msgstr "མཉེན་སྡེར་བཀར་མ་ཐུབ་པ"
 
 #. Type: error
 #. Description
@@ -101,8 +119,9 @@ msgstr ""
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:7001
+#, fuzzy
 msgid "Integrity test failed"
-msgstr ""
+msgstr "སྒྲིག་འཇུག་གི་བརྒྱུད་རིམ་ལེགས་འགྲུབ་མ་ཐུབ"
 
 #. Type: error
 #. Description
@@ -124,31 +143,35 @@ msgstr ""
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:9001
+#, fuzzy
 msgid "Insert Debian boot CD-ROM"
-msgstr ""
+msgstr "འོད་སྡེར་སྒུལ་ཆས་འཚོལ་ནས་བཀར་བ"
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:9001
+#, fuzzy
 msgid ""
 "Please make sure you have inserted the Debian boot CD-ROM  to continue with "
 "the installation."
-msgstr ""
+msgstr "འོས་འཚམས་ཀྱི་འོད་སྡེར་ཞིག་འཇུག་ནས་སྒྲིག་འཇུག་མུ་མཐུད"
 
 #. Type: text
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:10001
+#, fuzzy
 msgid "Checking CD-ROM integrity"
-msgstr ""
+msgstr "འོད་སྡེར་གྱི་དག་ཚད་ལྟ་བ"
 
 #. Type: text
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:11001
+#, fuzzy
 msgid "Checking file: ${FILE}"
-msgstr ""
+msgstr "མི་ཚང་བའི་སྲ་ཆས་ཀྱི་བྱ་རིམ་ཡིག་ནི་：${FILES}"
 
 #. Type: text
 #. Description
@@ -157,4 +180,4 @@ msgstr ""
 #. :sl2:
 #: ../cdrom-checker.templates:12001
 msgid "Check the CD-ROM(s) integrity"
-msgstr ""
+msgstr "འོད་སྡེར་གྱི་དག་ཚད་ལྟ་བ"
