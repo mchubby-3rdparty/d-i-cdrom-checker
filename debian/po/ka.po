@@ -3,43 +3,12 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# Georgian messages for debian-installer.
-# Copyright (C) 2003 Software in the Public Interest, Inc.
-# This file is distributed under the same license as debian-installer.
-#
-# Aiet Kolkhi <aietkolkhi@gmail.com>, 2005, 2006, 2007, 2008.
-#
-# This file is maintained by Aiet Kolkhi <aietkolkhi@gmail.com>
-#
-# Includes contributions by Malkhaz Barkalaza <malxaz@gmail.com>,
-# Alexander Didebulidze <didebuli@in.tum.de>, Vladimer Sichinava <vlsichinava@gmail.com>
-# Taya Kharitonashvili <taya13@gmail.com>, Gia Shervashidze - www.gia.ge
-#
-#
-# Translations from iso-codes:
-#   Alastair McKinstry <mckinstry@debian.org>, 2004.
-#   Aiet Kolkhi <aietkolkhi@gmail.com>, 2008.
-#
-msgid ""
-msgstr ""
-"Project-Id-Version: debian-installer.2006071\n"
-"Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
-"POT-Creation-Date: 2008-01-26 07:32+0000\n"
-"PO-Revision-Date: 2011-03-01 12:49+0400\n"
-"Last-Translator: Aiet Kolkhi <aietkolkhi@gmail.com>\n"
-"Language-Team: Georgian\n"
-"Language: ka\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0\n"
-
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:1001
 msgid "Check CD-ROM integrity?"
-msgstr "შევამოწმოთ კომპაქტ-დისკი?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -47,15 +16,13 @@ msgstr "შევამოწმოთ კომპაქტ-დისკი?"
 #: ../cdrom-checker.templates:1001
 msgid "Warning: this check depends on your hardware and may take some time."
 msgstr ""
-"გაფრთხილება: შემოწმება მოითხოვს გარკვეულ დროს, რომლის ხანგრძლივობა "
-"დამოკიდებულია თქვენს აპარატურაზე."
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:2001
 msgid "Insert a Debian CD-ROM"
-msgstr "ჩადეთ Debian-ის დისკი"
+msgstr ""
 
 #. Type: note
 #. Description
@@ -64,14 +31,14 @@ msgstr "ჩადეთ Debian-ის დისკი"
 msgid ""
 "Please insert one of the official Debian CD-ROMs into the drive before "
 "continuing."
-msgstr "სანამ გააგრძელებდეთ, ჩადეთ Debian-ის ოფიციალური კომპაქტ-დისკი."
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:3001
 msgid "Failed to mount CD-ROM"
-msgstr "შეცდომა კომპაქტ-დისკის დამონტაჟებისას"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -80,14 +47,14 @@ msgstr "შეცდომა კომპაქტ-დისკის დამ
 msgid ""
 "The CD-ROM ${CDROM} could not be mounted correctly. Please check the media "
 "and cables, and try it again."
-msgstr "კომპაქტ-დისკი ${CDROM} ვერ დამონტჟდა, შეამოწმეთ აპარატურა და კაბელები."
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:4001
 msgid "No valid Debian CD-ROM"
-msgstr "ეს არ არის Debian-ის კომპაქტ-დისკი"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -96,7 +63,7 @@ msgstr "ეს არ არის Debian-ის კომპაქტ-დის
 msgid ""
 "The CD-ROM you have inserted is not a valid Debian CD-ROM. Please change the "
 "disk."
-msgstr "თქვენი დისკი - არ არის Debian-ის კომპაქტ-დისკი. შეცვალეთ."
+msgstr ""
 
 #. Type: error
 #. Description
@@ -104,7 +71,7 @@ msgstr "თქვენი დისკი - არ არის Debian-ის �
 #. :sl3:
 #: ../cdrom-checker.templates:5001
 msgid "Failed to open checksum file"
-msgstr "საკონტროლო ჯამის ფაილი 'checksum' არ იხსნება"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -115,29 +82,27 @@ msgid ""
 "Opening the MD5 file on the CD-ROM failed. This file contains the checksums "
 "of the files located on the CD-ROM."
 msgstr ""
-"MD5 ფაილი არ იკითხება დისკზე. ეს ფაილი შეიცავს დისკზე არსებული ფაილების "
-"საკონტროლო ჯამებს."
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:6001
 msgid "Integrity test successful"
-msgstr "დისკის ტესტირება წარმატებით დასრულდა"
+msgstr ""
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:6001
 msgid "The CD-ROM integrity test was successful. The CD-ROM is valid."
-msgstr "კომპაქტ-დისკის ტესტირება  დასრულებულია. დისკი ვარგისია."
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:7001
 msgid "Integrity test failed"
-msgstr "დისკის ვარგისიანობის ტესტირება წარუმატებლად დასრულდა"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -147,22 +112,20 @@ msgid ""
 "The ${FILE} file failed the MD5 checksum verification. Your CD-ROM or this "
 "file may have been corrupted."
 msgstr ""
-"${FILE} ფაილის საკონტროლო ჯამი არ დაემთხვა MD5-ის მონაცემს. ალბათ ეს ფაილი "
-"ან მთელი დისკი დაზიანებულია."
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:8001
 msgid "Check the integrity of another CD-ROM?"
-msgstr "შევამოწმოთ სხვა დისკი?"
+msgstr ""
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:9001
 msgid "Insert Debian boot CD-ROM"
-msgstr "ჩადეთ Debian-ის ჩატვირთვადი დისკი"
+msgstr ""
 
 #. Type: note
 #. Description
@@ -172,21 +135,20 @@ msgid ""
 "Please make sure you have inserted the Debian boot CD-ROM  to continue with "
 "the installation."
 msgstr ""
-"ინსტალაციის გასაგრძელებლად გთხოვთ ჩადოთ სათანადო Debian-ის ჩატვირთვადი დისკი."
 
 #. Type: text
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:10001
 msgid "Checking CD-ROM integrity"
-msgstr "კომპაქტ-დისკის შემოწმება"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:11001
 msgid "Checking file: ${FILE}"
-msgstr "${FILE} ფაილის შემოწმება"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -195,4 +157,4 @@ msgstr "${FILE} ფაილის შემოწმება"
 #. :sl2:
 #: ../cdrom-checker.templates:12001
 msgid "Check the CD-ROM(s) integrity"
-msgstr "კომპაქტ-დისკის შემოწმება"
+msgstr ""

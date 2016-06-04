@@ -3,56 +3,26 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# translation of ar.po to Arabic
-# Arabic messages for debian-installer. Copyright (C) 2003 Software in the Public Interest, Inc. This file is distributed under the same license as debian-installer. Ossama M. Khayat <okhayat@yahoo.com>, 2005.
-#
-# Translations from iso-codes:
-#     Translations taken from ICU SVN on 2007-09-09
-#   Translations from kde-i18n/desktop.po:
-#
-# Ossama M. Khayat <okhayat@yahoo.com>, 2006, 2007, 2008, 2009, 2010.
-#   Abdulaziz Al-Arfaj <alarfaj0@yahoo.com>, 2004.
-#   Alastair McKinstry <mckinstry@computer.org>, 2002.
-#   Free Software Foundation, Inc., 2002, 2004.
-#   Ossama M. Khayat <okhayat@yahoo.com>, 2006, 2008, 2010.
-#   Tobias Quathamer <toddy@debian.org>, 2007.
-#   Mohammad Gamal <f2c2001@yahoo.com>, 2001.
-# Ossama Khayat <okhayat@yahoo.com>, 2011, 2012, 2013.
-msgid ""
-msgstr ""
-"Project-Id-Version: ar\n"
-"Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
-"POT-Creation-Date: 2008-01-26 07:32+0000\n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
-"Language-Team: American English <okhayat@gmail.com>\n"
-"Language: ar\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=6; n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n>=3 && n⇐10 ? "
-"3 : n>=11 && n⇐99 ? 4 : 5\n"
-
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:1001
 msgid "Check CD-ROM integrity?"
-msgstr "هل أفحص تكامل القرص المدمج؟"
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:1001
 msgid "Warning: this check depends on your hardware and may take some time."
-msgstr "تحذير: هذا الفحص يعتمد على عتادك وقد يستغرق بعض الوقت."
+msgstr ""
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:2001
 msgid "Insert a Debian CD-ROM"
-msgstr "أدخل القرص المدمج لديبيان"
+msgstr ""
 
 #. Type: note
 #. Description
@@ -61,14 +31,14 @@ msgstr "أدخل القرص المدمج لديبيان"
 msgid ""
 "Please insert one of the official Debian CD-ROMs into the drive before "
 "continuing."
-msgstr "رجاء أدخل أحد أقراص ديبيان المدمجة الرسمية في القارئ قبل الاستمرار."
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:3001
 msgid "Failed to mount CD-ROM"
-msgstr "فشل تركيب القرص المدمج"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -78,15 +48,13 @@ msgid ""
 "The CD-ROM ${CDROM} could not be mounted correctly. Please check the media "
 "and cables, and try it again."
 msgstr ""
-"القرص المدمج ${CDROM} لم يمكن تركيبه بشكل صحيح. رجاء افحص الجهاز والأسلاك، "
-"وحاول مرة أخرى."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:4001
 msgid "No valid Debian CD-ROM"
-msgstr "ليس هناك قرص ديبيان مدمج صالح"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -95,7 +63,7 @@ msgstr "ليس هناك قرص ديبيان مدمج صالح"
 msgid ""
 "The CD-ROM you have inserted is not a valid Debian CD-ROM. Please change the "
 "disk."
-msgstr "القرص المدمج الذي أدخلته ليس قرصاً صالحاً. رجاء تحقق منه."
+msgstr ""
 
 #. Type: error
 #. Description
@@ -103,7 +71,7 @@ msgstr "القرص المدمج الذي أدخلته ليس قرصاً صالح
 #. :sl3:
 #: ../cdrom-checker.templates:5001
 msgid "Failed to open checksum file"
-msgstr "فشل فتح ملف الفحص الكلي"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -114,29 +82,27 @@ msgid ""
 "Opening the MD5 file on the CD-ROM failed. This file contains the checksums "
 "of the files located on the CD-ROM."
 msgstr ""
-"فشل فتح ملف MD5 من القرص المدمج. يحتوي هذا الملف الفحص الكلي للملفات "
-"الموجودة على القرص المدمج."
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:6001
 msgid "Integrity test successful"
-msgstr "تمّ فحص التكامل بنجاح"
+msgstr ""
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:6001
 msgid "The CD-ROM integrity test was successful. The CD-ROM is valid."
-msgstr "تمّ فحص التكامل للقرص المدمج بنجاح. القرص صالح."
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:7001
 msgid "Integrity test failed"
-msgstr "فشل فحص التكامل"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -145,21 +111,21 @@ msgstr "فشل فحص التكامل"
 msgid ""
 "The ${FILE} file failed the MD5 checksum verification. Your CD-ROM or this "
 "file may have been corrupted."
-msgstr "فشل الملف ${FILE} الفحص الكلي MD5. قد يكون قرصك المدمج أو الملف فاسداً."
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:8001
 msgid "Check the integrity of another CD-ROM?"
-msgstr "فحص تكامل قرص ديبيان مدمج آخر؟"
+msgstr ""
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:9001
 msgid "Insert Debian boot CD-ROM"
-msgstr "أدخل قرص إقلاع ديبيان المدمج"
+msgstr ""
 
 #. Type: note
 #. Description
@@ -168,21 +134,21 @@ msgstr "أدخل قرص إقلاع ديبيان المدمج"
 msgid ""
 "Please make sure you have inserted the Debian boot CD-ROM  to continue with "
 "the installation."
-msgstr "الرجاء تأكد من إدخال قرص إقلاع ديبيان المدمج للاستمرار بالتثبيت."
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:10001
 msgid "Checking CD-ROM integrity"
-msgstr "فحص تكامل القرص المدمج"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:11001
 msgid "Checking file: ${FILE}"
-msgstr "فحص الملف: ${FILE}"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -191,4 +157,4 @@ msgstr "فحص الملف: ${FILE}"
 #. :sl2:
 #: ../cdrom-checker.templates:12001
 msgid "Check the CD-ROM(s) integrity"
-msgstr "فحص تكامل الأقراص المدمجة"
+msgstr ""

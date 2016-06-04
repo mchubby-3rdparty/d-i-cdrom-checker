@@ -3,54 +3,26 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# THIS FILE IS GENERATED AUTOMATICALLY FROM THE D-I PO MASTER FILES
-# The master files can be found under packages/po/
-#
-# DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
-#
-# translation of gl.po to Galician
-# Galician messages for debian-installer.
-# Copyright (C) 2003 Software in the Public Interest, Inc.
-# This file is distributed under the same license as debian-installer.
-#
-# Marce Villarino <mvillarino@users.sourceforge.net>, 2009.
-# marce villarino <mvillarino@users.sourceforge.net>, 2009.
-# Marce Villarino <mvillarino@gmail.com>, 2009.
-# Jorge Barreiro <xurxo@findomundo.es>, 2010, 2011, 2012, 2013, 2014, 2015.
-msgid ""
-msgstr ""
-"Project-Id-Version: gl\n"
-"Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
-"POT-Creation-Date: 2008-01-26 07:32+0000\n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
-"Language-Team: Galician <proxecto@trasno.net>\n"
-"Language: gl\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:1001
 msgid "Check CD-ROM integrity?"
-msgstr "Desexa comprobar a integridade do CD-ROM?"
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:1001
 msgid "Warning: this check depends on your hardware and may take some time."
-msgstr "Aviso: esta proba depende do hardware e pode levar algún tempo."
+msgstr ""
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:2001
 msgid "Insert a Debian CD-ROM"
-msgstr "Insira un CD-ROM de Debian"
+msgstr ""
 
 #. Type: note
 #. Description
@@ -60,14 +32,13 @@ msgid ""
 "Please insert one of the official Debian CD-ROMs into the drive before "
 "continuing."
 msgstr ""
-"Introduza un dos CD-ROM oficiais de Debian na unidade antes de continuar."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:3001
 msgid "Failed to mount CD-ROM"
-msgstr "Non foi posíbel montar o CD-ROM"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -77,15 +48,13 @@ msgid ""
 "The CD-ROM ${CDROM} could not be mounted correctly. Please check the media "
 "and cables, and try it again."
 msgstr ""
-"Non foi posíbel montar correctamente o CD-ROM ${CDROM}. Comprobe o disco e "
-"os cables e volva tentalo."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:4001
 msgid "No valid Debian CD-ROM"
-msgstr "Non hai un CD-ROM de Debian válido"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -94,7 +63,7 @@ msgstr "Non hai un CD-ROM de Debian válido"
 msgid ""
 "The CD-ROM you have inserted is not a valid Debian CD-ROM. Please change the "
 "disk."
-msgstr "O CD-ROM que inseriu non é un CD-ROM de Debian válido. Troque o disco."
+msgstr ""
 
 #. Type: error
 #. Description
@@ -102,7 +71,7 @@ msgstr "O CD-ROM que inseriu non é un CD-ROM de Debian válido. Troque o disco.
 #. :sl3:
 #: ../cdrom-checker.templates:5001
 msgid "Failed to open checksum file"
-msgstr "Non foi posíbel abrir o ficheiro coa suma de comprobación"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -113,29 +82,27 @@ msgid ""
 "Opening the MD5 file on the CD-ROM failed. This file contains the checksums "
 "of the files located on the CD-ROM."
 msgstr ""
-"Non foi posíbel abrir o ficheiro MD5 do CD-ROM. Este ficheiro contén as "
-"sumas de comprobación dos ficheiros do CD-ROM."
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:6001
 msgid "Integrity test successful"
-msgstr "Proba de integridade satisfactoria"
+msgstr ""
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:6001
 msgid "The CD-ROM integrity test was successful. The CD-ROM is valid."
-msgstr "A proba de integridade do CD-ROM foi satisfactoria. O CD-ROM é válido."
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:7001
 msgid "Integrity test failed"
-msgstr "A proba de integridade fracasou"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -145,22 +112,20 @@ msgid ""
 "The ${FILE} file failed the MD5 checksum verification. Your CD-ROM or this "
 "file may have been corrupted."
 msgstr ""
-"O ficheiro ${FILE} non pasou a verificación da suma de verificación MD5. "
-"Pode ser que o CD-ROM ou este ficheiro estean corruptos."
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:8001
 msgid "Check the integrity of another CD-ROM?"
-msgstr "Desexa comprobar a integridade doutro CD-ROM?"
+msgstr ""
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:9001
 msgid "Insert Debian boot CD-ROM"
-msgstr "Insira o CD-ROM de arranque de Debian"
+msgstr ""
 
 #. Type: note
 #. Description
@@ -170,22 +135,20 @@ msgid ""
 "Please make sure you have inserted the Debian boot CD-ROM  to continue with "
 "the installation."
 msgstr ""
-"Verifique que ten inserido o CD-ROM de arranque de Debian para continuar a "
-"instalación."
 
 #. Type: text
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:10001
 msgid "Checking CD-ROM integrity"
-msgstr "Estase a comprobar a integridade do CD-ROM"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:11001
 msgid "Checking file: ${FILE}"
-msgstr "Estase a comprobar o ficheiro: ${FILE}"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -194,4 +157,4 @@ msgstr "Estase a comprobar o ficheiro: ${FILE}"
 #. :sl2:
 #: ../cdrom-checker.templates:12001
 msgid "Check the CD-ROM(s) integrity"
-msgstr "Comprobar a integridade do(s) CD-ROM"
+msgstr ""

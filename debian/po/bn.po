@@ -3,50 +3,12 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# Bangla translation of Debian-Installer.
-# Copyright (C) 2005, 2006, Debian Foundation.
-# This file is distributed under the same license as the Debian-Installer package.
-# Anubadok, the en2bn auto-translator by Golam Mortuza Hossain <golam@imsc.res.in>, 2005.
-# Baishampayan Ghose <b.ghose@gnu.org.in>, 2005-2006.
-# Quazi Ashfaq-ur Rahman <quazi.ashfaq@gmail.com>, 2005.
-# Khandakar Mujahidul Islam <suzan@bengalinux.org>, 2005, 2006.
-# Progga <progga@BengaLinux.Org>, 2005, 2006.
-# Jamil Ahmed <jamil@bengalinux.org>, 2006-2007.
-# Mahay Alam Khan (মাহে আলম খান) <makl10n@yahoo.com>, 2007.
-# Tisa Nafisa <tisa_nafisa@yahoo.com>, 2007.
-# Md. Rezwan Shahid <rezwan@ankur.org.bd>, 2009.
-# Ayesha Akhtar <ayesha@ankur.org.bd>, 2010.
-# Israt Jahan <israt@ankur.org.bd>, 2010.
-# Zenat Rahnuma <zenat@ankur.org.bd>, 2011.
-#
-# Translations from iso-codes:
-#   Debian Foundation, 2005.
-#   Progga <progga@BengaLinux.Org>, 2005.
-#   Jamil Ahmed <jamil@bengalinux.org>, 2006.
-#   Md. Rezwan Shahid <rezwan@ankur.org.bd>, 2009.
-#   Israt Jahan <israt@ankur.org.bd>, 2010.
-#   Ayesha Akhtar <ayesha@ankur.org.bd>, 2012.
-#   Robin Mehdee (রবিন মেহদী) <robin@ankur.org.bd>, 2012.
-msgid ""
-msgstr ""
-"Project-Id-Version: bn\n"
-"Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
-"POT-Creation-Date: 2008-01-26 07:32+0000\n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
-"Language-Team: Bengali \n"
-"Language: bn\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:1001
 msgid "Check CD-ROM integrity?"
-msgstr "CD-ROM এর নির্ভূলতা পরীক্ষা করা হবে কি?"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -54,15 +16,13 @@ msgstr "CD-ROM এর নির্ভূলতা পরীক্ষা কর�
 #: ../cdrom-checker.templates:1001
 msgid "Warning: this check depends on your hardware and may take some time."
 msgstr ""
-"সতর্কবাণী: এই পরীক্ষাটি আপনার হার্ডওয়্যারের প্রকৃতির ওপর নির্ভর করে এবং এতে কিছুটা "
-"সময় লাগতে পারে।"
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:2001
 msgid "Insert a Debian CD-ROM"
-msgstr "একটি ডেবিয়ান CD-ROM প্রবেশ করান"
+msgstr ""
 
 #. Type: note
 #. Description
@@ -72,14 +32,13 @@ msgid ""
 "Please insert one of the official Debian CD-ROMs into the drive before "
 "continuing."
 msgstr ""
-"অনুগ্রহপূর্বক এগিয়ে যাওয়ার পূর্বে কোন একটি অফিসিয়াল ডেবিয়ান CD-ROM ড্রাইভে ঢোকান।"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:3001
 msgid "Failed to mount CD-ROM"
-msgstr "CD-ROM মাউন্ট করতে ব্যর্থ"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -89,15 +48,13 @@ msgid ""
 "The CD-ROM ${CDROM} could not be mounted correctly. Please check the media "
 "and cables, and try it again."
 msgstr ""
-"সিডি-রম ${CDROM}-কে সঠিকভাবে মাউন্ট করা যায় নি। অনুগ্রহপূর্বক মিডিয়া ও সিডি "
-"ড্রাইভের তার পরীক্ষা করুন, এবং তারপর আবার চেষ্টা করুন।"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:4001
 msgid "No valid Debian CD-ROM"
-msgstr "এটি কোনো কার্যকর ডেবিয়ান CD-ROM নয়"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -107,8 +64,6 @@ msgid ""
 "The CD-ROM you have inserted is not a valid Debian CD-ROM. Please change the "
 "disk."
 msgstr ""
-"সিডি ড্রাইভে ঢোকানো CD-ROMটি কোনো কার্যকর ডেবিয়ান CD-ROM নয়। অনুগ্রহপূর্বক এটি "
-"পাল্টে দিন।"
 
 #. Type: error
 #. Description
@@ -116,7 +71,7 @@ msgstr ""
 #. :sl3:
 #: ../cdrom-checker.templates:5001
 msgid "Failed to open checksum file"
-msgstr "চেকসাম ফাইল খুলতে ব্যর্থ"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -127,29 +82,27 @@ msgid ""
 "Opening the MD5 file on the CD-ROM failed. This file contains the checksums "
 "of the files located on the CD-ROM."
 msgstr ""
-"CD-ROM এর MD5 ফাইল খোলা যায় নি। এই ফাইলে CD-ROM এ অবস্থিত সকল ফাইলের চেকসাম "
-"রয়েছে।"
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:6001
 msgid "Integrity test successful"
-msgstr "নির্ভূলতার পরীক্ষা সফল হয়েছে"
+msgstr ""
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:6001
 msgid "The CD-ROM integrity test was successful. The CD-ROM is valid."
-msgstr "CD-ROM এর নির্ভূলতার পরীক্ষা সফল হয়েছে। CD-ROMটি বৈধ।"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:7001
 msgid "Integrity test failed"
-msgstr "নির্ভূলতার পরীক্ষা ব্যর্থ"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -159,22 +112,20 @@ msgid ""
 "The ${FILE} file failed the MD5 checksum verification. Your CD-ROM or this "
 "file may have been corrupted."
 msgstr ""
-"${FILE} ফাইলটি MD5 চেকসাম পরীক্ষায় উত্তীর্ণ হয় নি। সম্ভবত আপনার CD-ROM বা এই "
-"ফাইলটি ত্রুটিপূর্ণ।"
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:8001
 msgid "Check the integrity of another CD-ROM?"
-msgstr "অন্য একটি CD-ROM এর নির্ভূলতা পরীক্ষা করবো কি?"
+msgstr ""
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:9001
 msgid "Insert Debian boot CD-ROM"
-msgstr "ডেবিয়ান বুট CD-ROM প্রবেশ করান"
+msgstr ""
 
 #. Type: note
 #. Description
@@ -184,22 +135,20 @@ msgid ""
 "Please make sure you have inserted the Debian boot CD-ROM  to continue with "
 "the installation."
 msgstr ""
-"অনুগ্রহপূর্বক ইনস্টলেশন চালিয়ে যাওয়ার জন্য আপনি ডেবিয়ান বুট CD-ROM ঢুকিয়েছেন কিনা তা "
-"নিশ্চিত করুন।"
 
 #. Type: text
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:10001
 msgid "Checking CD-ROM integrity"
-msgstr "CD-ROM এর নির্ভূলতা পরীক্ষা করা হচ্ছে"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:11001
 msgid "Checking file: ${FILE}"
-msgstr "এই ফাইলটি পরীক্ষা করা হচ্ছে: ${FILE}"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -208,4 +157,4 @@ msgstr "এই ফাইলটি পরীক্ষা করা হচ্ছ�
 #. :sl2:
 #: ../cdrom-checker.templates:12001
 msgid "Check the CD-ROM(s) integrity"
-msgstr "CD-ROM(গুলোর) নির্ভূলতা পরীক্ষা করো"
+msgstr ""

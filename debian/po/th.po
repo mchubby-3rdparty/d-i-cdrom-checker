@@ -3,54 +3,26 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# Thai translation of debian-installer.
-# Copyright (C) 2006-2016 Software in the Public Interest, Inc.
-# This file is distributed under the same license as debian-installer.
-# Theppitak Karoonboonyanan <theppitak@gmail.com>, 2006-2015.
-#
-#
-# Translations from iso-codes:
-#   Tobias Quathamer <toddy@debian.org>, 2007.
-#     Translations taken from ICU SVN on 2007-09-09
-#   Free Software Foundation, Inc., 2002,2003,2004
-#   Alastair McKinstry <mckinstry@computer.org>, 2002, 2004
-# Translations from KDE:
-#   Thanomsub Noppaburana <donga@midaassets.com>
-# Theppitak Karoonboonyanan <theppitak@gmail.com>, 2005-2016
-#
-msgid ""
-msgstr ""
-"Project-Id-Version: debian-installer\n"
-"Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
-"POT-Creation-Date: 2008-01-26 07:32+0000\n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
-"Language-Team: Thai <thai-l10n@googlegroups.com>\n"
-"Language: th\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:1001
 msgid "Check CD-ROM integrity?"
-msgstr "จะตรวจสอบความสมบูรณ์ของซีดีรอมหรือไม่?"
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:1001
 msgid "Warning: this check depends on your hardware and may take some time."
-msgstr "คำเตือน: การตรวจสอบนี้ขึ้นอยู่กับฮาร์ดแวร์ของคุณ และอาจใช้เวลานาน"
+msgstr ""
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:2001
 msgid "Insert a Debian CD-ROM"
-msgstr "ใส่แผ่นซีดีรอมเดเบียน"
+msgstr ""
 
 #. Type: note
 #. Description
@@ -59,14 +31,14 @@ msgstr "ใส่แผ่นซีดีรอมเดเบียน"
 msgid ""
 "Please insert one of the official Debian CD-ROMs into the drive before "
 "continuing."
-msgstr "กรุณาใส่แผ่นซีดีรอมเดเบียนที่เป็นทางการลงในไดรว์ก่อนจะดำเนินการต่อไป"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:3001
 msgid "Failed to mount CD-ROM"
-msgstr "เมานท์ซีดีรอมไม่สำเร็จ"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -75,14 +47,14 @@ msgstr "เมานท์ซีดีรอมไม่สำเร็จ"
 msgid ""
 "The CD-ROM ${CDROM} could not be mounted correctly. Please check the media "
 "and cables, and try it again."
-msgstr "ไม่สามารถเมานท์ซีดีรอม ${CDROM} ได้ กรุณาตรวจสอบแผ่นและสายสัญญาณ แล้วลองใหม่"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:4001
 msgid "No valid Debian CD-ROM"
-msgstr "ไม่มีแผ่นซีดีรอมเดเบียนที่ใช้การได้"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -91,7 +63,7 @@ msgstr "ไม่มีแผ่นซีดีรอมเดเบียนท
 msgid ""
 "The CD-ROM you have inserted is not a valid Debian CD-ROM. Please change the "
 "disk."
-msgstr "แผ่นซีดีรอมที่คุณใส่ ไม่ใช่แผ่นซีดีรอมเดเบียนที่ใช้การได้ กรุณาเปลี่ยนแผ่น"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -99,7 +71,7 @@ msgstr "แผ่นซีดีรอมที่คุณใส่ ไม่�
 #. :sl3:
 #: ../cdrom-checker.templates:5001
 msgid "Failed to open checksum file"
-msgstr "เปิดแฟ้มตรวจสอบผลรวมไม่สำเร็จ"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -110,28 +82,27 @@ msgid ""
 "Opening the MD5 file on the CD-ROM failed. This file contains the checksums "
 "of the files located on the CD-ROM."
 msgstr ""
-"เปิดแฟ้ม MD5 ในซีดีรอมไม่สำเร็จ แฟ้มดังกล่าวเก็บผลรวมตรวจสอบของแฟ้มต่างๆ ที่อยู่ในซีดีรอม"
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:6001
 msgid "Integrity test successful"
-msgstr "การทดสอบความสมบูรณ์ผ่าน"
+msgstr ""
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:6001
 msgid "The CD-ROM integrity test was successful. The CD-ROM is valid."
-msgstr "การทดสอบความสมบูรณ์ของซีดีรอมผ่านแล้ว แผ่นซีดีรอมใช้การได้"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:7001
 msgid "Integrity test failed"
-msgstr "การทดสอบความสมบูรณ์ไม่ผ่าน"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -140,21 +111,21 @@ msgstr "การทดสอบความสมบูรณ์ไม่ผ่
 msgid ""
 "The ${FILE} file failed the MD5 checksum verification. Your CD-ROM or this "
 "file may have been corrupted."
-msgstr "แฟ้ม ${FILE} ไม่ผ่านการตรวจสอบผลรวม MD5 แผ่นซีดีรอมหรือแฟ้มดังกล่าวอาจจะเสีย"
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:8001
 msgid "Check the integrity of another CD-ROM?"
-msgstr "จะตรวจสอบความสมบูรณ์ของซีดีรอมอื่นหรือไม่?"
+msgstr ""
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:9001
 msgid "Insert Debian boot CD-ROM"
-msgstr "ใส่แผ่นซีดีรอมสำหรับบูตเดเบียน"
+msgstr ""
 
 #. Type: note
 #. Description
@@ -163,21 +134,21 @@ msgstr "ใส่แผ่นซีดีรอมสำหรับบูตเ
 msgid ""
 "Please make sure you have inserted the Debian boot CD-ROM  to continue with "
 "the installation."
-msgstr "กรุณาตรวจสอบให้แน่ใจ ว่าคุณได้ใส่แผ่นซีดีรอมสำหรับบูตเดเบียนแล้ว เพื่อดำเนินการติดตั้งต่อ"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:10001
 msgid "Checking CD-ROM integrity"
-msgstr "กำลังตรวจสอบความสมบูรณ์ของซีดีรอม"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:11001
 msgid "Checking file: ${FILE}"
-msgstr "กำลังตรวจสอบแฟ้ม: ${FILE}"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -186,4 +157,4 @@ msgstr "กำลังตรวจสอบแฟ้ม: ${FILE}"
 #. :sl2:
 #: ../cdrom-checker.templates:12001
 msgid "Check the CD-ROM(s) integrity"
-msgstr "ตรวจสอบความสมบูรณ์ของซีดีรอม"
+msgstr ""

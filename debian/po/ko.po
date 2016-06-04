@@ -3,59 +3,26 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# Korean messages for debian-installer.
-# Copyright (C) 2003,2004,2005,2008 Software in the Public Interest, Inc.
-# This file is distributed under the same license as debian-installer.
-#
-# Changwoo Ryu <cwryu@debian.org>, 2010, 2011, 2012, 2014, 2015.
-#
-# Translations from iso-codes:
-# Copyright (C)
-#   Alastair McKinstry <mckinstry@computer.org>, 2001.
-#   Changwoo Ryu <cwryu@debian.org>, 2004, 2008, 2009, 2010, 2011.
-#   Copyright (C) 2000 Free Software Foundation, Inc.
-#   Eungkyu Song <eungkyu@sparcs.org>, 2001.
-#   Free Software Foundation, Inc., 2001,2003
-#   Jaegeum Choe <baedaron@hananet.net>, 2001.
-#   (translations from drakfw)
-#   Kang, JeongHee <Keizi@mail.co.kr>, 2000.
-#   Sunjae Park <darehanl@gmail.com>, 2006-2007.
-#   Tobias Quathamer <toddy@debian.org>, 2007.
-#     Translations taken from ICU SVN on 2007-09-09
-#
-msgid ""
-msgstr ""
-"Project-Id-Version: debian-installer\n"
-"Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
-"POT-Creation-Date: 2008-01-26 07:32+0000\n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
-"Language-Team:  Korean <debian-l10n-korean@lists.debian.org>\n"
-"Language: ko\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:1001
 msgid "Check CD-ROM integrity?"
-msgstr "CD-ROM이 올바른지 확인하시겠습니까?"
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:1001
 msgid "Warning: this check depends on your hardware and may take some time."
-msgstr "경고: 이 검사는 하드웨어에 따라 시간이 좀 걸릴 수도 있습니다."
+msgstr ""
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:2001
 msgid "Insert a Debian CD-ROM"
-msgstr "데비안 CD-ROM을 넣으십시오"
+msgstr ""
 
 #. Type: note
 #. Description
@@ -64,14 +31,14 @@ msgstr "데비안 CD-ROM을 넣으십시오"
 msgid ""
 "Please insert one of the official Debian CD-ROMs into the drive before "
 "continuing."
-msgstr "계속하기 전에 공식 데비안 CD-ROM을 드라이브에 넣으십시오."
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:3001
 msgid "Failed to mount CD-ROM"
-msgstr "CD-ROM을 마운트하는데 실패했습니다"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -81,15 +48,13 @@ msgid ""
 "The CD-ROM ${CDROM} could not be mounted correctly. Please check the media "
 "and cables, and try it again."
 msgstr ""
-"${CDROM} CD-ROM을 마운트할 수 없습니다.  미디어와 케이블을 확인하시고, 다시 "
-"한 번 시도하십시오."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:4001
 msgid "No valid Debian CD-ROM"
-msgstr "올바른 데비안 CD-ROM이 아닙니다"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -98,7 +63,7 @@ msgstr "올바른 데비안 CD-ROM이 아닙니다"
 msgid ""
 "The CD-ROM you have inserted is not a valid Debian CD-ROM. Please change the "
 "disk."
-msgstr "넣은 CD-ROM은 올바른 데비안 CD-ROM이 아닙니다. 디스크를 교환하십시오."
+msgstr ""
 
 #. Type: error
 #. Description
@@ -106,7 +71,7 @@ msgstr "넣은 CD-ROM은 올바른 데비안 CD-ROM이 아닙니다. 디스크�
 #. :sl3:
 #: ../cdrom-checker.templates:5001
 msgid "Failed to open checksum file"
-msgstr "체크섬 파일을 여는데 실패했습니다"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -117,29 +82,27 @@ msgid ""
 "Opening the MD5 file on the CD-ROM failed. This file contains the checksums "
 "of the files located on the CD-ROM."
 msgstr ""
-"CD-ROM의 MD5 파일을 여는데 실패했습니다. 체크섬 파일에는 CD-ROM에 들어 있는 "
-"파일의 체크섬이 들어 있습니다."
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:6001
 msgid "Integrity test successful"
-msgstr "내용 확인이 성공했습니다"
+msgstr ""
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:6001
 msgid "The CD-ROM integrity test was successful. The CD-ROM is valid."
-msgstr "CD-ROM이 올바른지 확인하는데 성공했습니다. CD-ROM이 문제가 없습니다."
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:7001
 msgid "Integrity test failed"
-msgstr "내용 확인에 실패했습니다"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -149,22 +112,20 @@ msgid ""
 "The ${FILE} file failed the MD5 checksum verification. Your CD-ROM or this "
 "file may have been corrupted."
 msgstr ""
-"${FILE} 파일에 대해 MD5 체크섬 확인이 실패했습니다. CD-ROM이나 이 파일이 손상"
-"되었을 것입니다."
 
 #. Type: boolean
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:8001
 msgid "Check the integrity of another CD-ROM?"
-msgstr "또 다른 CD-ROM의 내용을 확인하시겠습니까?"
+msgstr ""
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:9001
 msgid "Insert Debian boot CD-ROM"
-msgstr "데비안 시작 CD-ROM을 넣으십시오"
+msgstr ""
 
 #. Type: note
 #. Description
@@ -173,21 +134,21 @@ msgstr "데비안 시작 CD-ROM을 넣으십시오"
 msgid ""
 "Please make sure you have inserted the Debian boot CD-ROM  to continue with "
 "the installation."
-msgstr "설치를 계속하시기 전에 데비안 시작 CD-ROM을 넣으십시오."
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:10001
 msgid "Checking CD-ROM integrity"
-msgstr "CD-ROM의 내용을 확인하는 중입니다"
+msgstr ""
 
 #. Type: text
 #. Description
 #. :sl3:
 #: ../cdrom-checker.templates:11001
 msgid "Checking file: ${FILE}"
-msgstr "파일 검사: ${FILE}"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -196,4 +157,4 @@ msgstr "파일 검사: ${FILE}"
 #. :sl2:
 #: ../cdrom-checker.templates:12001
 msgid "Check the CD-ROM(s) integrity"
-msgstr "CD-ROM 내용 확인"
+msgstr ""
